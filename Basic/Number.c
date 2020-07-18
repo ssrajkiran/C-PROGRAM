@@ -1,16 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    int n,e;
+    int n, e;
     printf("Enter the start number");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
     printf("Enter end number");
-    scanf("%d",&e);
-while(n<=e)
-{
-    printf("%d\n",n);
-    n++;
-}
+    scanf("%d", &e);
+    while (n <= e)
+    {
+        printf("%d\n", n);
+        n++;
+    }
 }
