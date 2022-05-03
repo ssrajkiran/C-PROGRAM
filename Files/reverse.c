@@ -14,9 +14,11 @@ int main(){
     }
 
     fseek(fp,0,SEEK_END);
+
+    
     ft=ftell(fp);
 
-    while (i<ft)
+    while (i<=ft)
     {
         fseek(fp,-i,SEEK_END);
         printf("%c",fgetc(fp));
